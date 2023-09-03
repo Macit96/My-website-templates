@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Hello, sir/ma'am.</h1>
+        <p>Welcome to my personal website.</p>
+    </header>
+
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="your-profile-image.jpg" alt="profile" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>Hello, sir/ma'am! My name is [Your Name], and this is my personal website.</p>
+                <p>I have an interest in [Specify Interests] and have been working in the [Your Profession or Field] profession for [Duration], with experience in [Specify Key Experiences].</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Programming Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Languages Known</h3>
+                    <p>Details about Languages Known</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Languages Known</h3>
+                    <p>Details about Languages Known</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Languages Known</h3>
+                    <p>Details about Languages Known</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="container py-5">
+        <h2 class="text-center mb-4">Portfolio</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4" onmouseover="addHoverClass(this)" onmouseout="removeHoverClass(this)">
+                    <img src="project1.jpg" alt="Project 1" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Interesting details about Project 1</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4" onmouseover="addHoverClass(this)" onmouseout="removeHoverClass(this)">
+                    <img src="project2.jpg" alt="Project 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Interesting details about Project 2</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4" onmouseover="addHoverClass(this)" onmouseout="removeHoverClass(this)">
+                    <img src="project3.jpg" alt="Project 3" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">Interesting details about Project 13</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+       <script>
+        
+        function addHoverClass(element) {
+            element.classList.add("hovered");
+        }
+
+        
+        function removeHoverClass(element) {
+            element.classList.remove("hovered");
+        }
+    </script>
+</body>
+</html>

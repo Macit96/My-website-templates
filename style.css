@@ -1,0 +1,54 @@
+
+@media (max-width: 768px) {
+   
+    h1, h2, h3 {
+        font-size: 24px; 
+    }
+
+    .img-fluid {
+        max-width: 100%; 
+        height: auto;
+    }
+
+    
+    header {
+        background-size: contain; 
+    }
+
+    footer {
+        font-size: 16px; 
+    }
+
+    
+    .card {
+        margin-bottom: 20px; 
+    }
+}
+
+
+h1, h2, h3 {
+    color: #333;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+}
+
+
+footer {
+    font-size: 14px;
+}
+
+
+.card.hovered {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
